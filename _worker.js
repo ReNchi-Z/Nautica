@@ -1,12 +1,12 @@
 import { connect } from "cloudflare:sockets";
 
 // Variables
-const rootDomain = "ryusei.us.kg"; // Ganti dengan domain utama kalian
-const serviceName = "Renchi"; // Ganti dengan nama workers kalian
+const rootDomain = "nebu.eu.cc"; // Ganti dengan domain utama kalian
+const serviceName = "nebu"; // Ganti dengan nama workers kalian
 const apiKey = "ea760e89f060cc22bf69ba5216f5ef10c75a8"; // Ganti dengan Global API key kalian (https://dash.cloudflare.com/profile/api-tokens)
 const apiEmail = "neoxide@ichigo.me"; // Ganti dengan email yang kalian gunakan
-const accountID = "9b0893add7aee11918eef251ee81fc28"; // Ganti dengan Account ID kalian (https://dash.cloudflare.com -> Klik domain yang kalian gunakan)
-const zoneID = "363651dbd8fa0315e8cabf8fd50d5385"; // Ganti dengan Zone ID kalian (https://dash.cloudflare.com -> Klik domain yang kalian gunakan)
+const accountID = "b98a2ac598f998b945a793fb08f60797"; // Ganti dengan Account ID kalian (https://dash.cloudflare.com -> Klik domain yang kalian gunakan)
+const zoneID = "9e872cbc7a2e3fe91e8123b3374552d9"; // Ganti dengan Zone ID kalian (https://dash.cloudflare.com -> Klik domain yang kalian gunakan)
 let isApiReady = false;
 let proxyIP = "";
 let cachedProxyList = [];
@@ -19,7 +19,7 @@ const KV_PROXY_URL = "https://raw.githubusercontent.com/FoolVPN-ID/Nautica/refs/
 const PROXY_BANK_URL = "https://raw.githubusercontent.com/FoolVPN-ID/Nautica/refs/heads/main/proxyList.txt";
 const DNS_SERVER_ADDRESS = "8.8.8.8";
 const DNS_SERVER_PORT = 53;
-const PROXY_HEALTH_CHECK_API = "https://id1.foolvpn.me/api/v1/check";
+const PROXY_HEALTH_CHECK_API = "https://proxy-checker.lordzeo404.workers.dev/?ip=";
 const CONVERTER_URL = "https://nautica-tool.azurewebsites.net/api/v1/convert";
 const DONATE_LINK = "https://trakteer.id/dickymuliafiqri/tip";
 const PROXY_PER_PAGE = 24;
